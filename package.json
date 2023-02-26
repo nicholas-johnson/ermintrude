@@ -1,0 +1,30 @@
+{
+  "name": "ermintrude",
+  "version": "1.0.0",
+  "description": "Low config uber-flexible static site generator based on JSON.",
+  "main": "index.js",
+  "bin": {
+    "ermintrude": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-johnson/ermintrude.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholas-johnson/ermintrude/issues"
+  },
+  "homepage": "https://github.com/nicholas-johnson/ermintrude#readme",
+  "dependencies": {
+    "plop": "^3.1.2"
+  },
+  "workspaces": [
+    "packages/ermintrude",
+    "packages/ermintrude_demo_site",
+    "packages/ermintrude_codegen"
+  ]
+}
