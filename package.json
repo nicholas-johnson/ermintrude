@@ -1,7 +1,7 @@
 {
   "name": "ermintrude",
   "version": "1.0.0",
-  "description": "Low config uber-flexible static site generator based on JSON.",
+  "description": "Tidy little static site generator based on JSON. Pipe in a plain JavaScript object. Ermintrude gives you HTML/CSS back ready to deploy.",
   "main": "index.js",
   "bin": {
     "ermintrude": "bin/index.js"
